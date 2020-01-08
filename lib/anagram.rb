@@ -1,9 +1,9 @@
-# Your code goes here!
 class Anagram
-  def initialize(diaper)
-  @diaper = diaper
-  diaper.new
+  
+  attr_accessor :word
+  
+  def initialize(word)
+    @word = word
   end
-
-
-end
+  
+  def match(array_of_words)
